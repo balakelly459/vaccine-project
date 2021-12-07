@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+.img-science {
+    position: fixed;
+    margin-top: 120px;
+    margin-left: 110px;
+}
+
+.container-text {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(93, 89, 89);
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 140px;
+    left: 700px;
+    margin-top: 200px;
+}
+
+.paginaSOP {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    margin-top: 460px;
+}
+
+.divTextosSOP {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    font-size: 22px;
+    justify-content: space-around;
+    margin-left: 10px;
+    text-align: center;
+}
+.texto1SOP {
+    max-width: 26vw;
+}
+.texto2SOP {
+    max-width: 26vw;
+}
+.texto3SOP {
+    margin-top: 19px;
+    max-width: 26vw;
+}
