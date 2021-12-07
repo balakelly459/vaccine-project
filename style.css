@@ -67,7 +67,7 @@ section {
     padding-top: 3rem;
 }
 
-.paginavacina{
+.paginavacina {
     width: 48vw;
     height: 100vh;
     display: flex;
@@ -75,23 +75,23 @@ section {
     background: rgb(255, 255, 255);
 }
 
-.pg{
+.pg {
     overflow-y: hidden;
 }
-.tituloHARE{
+.tituloHARE {
     font-size: 50px;
     display: flex;
     margin-top: 25px;
     justify-content: center;
     align-items: center;
     font-family: 'Montserrat', sans-serif;
-    color: #00C1EC;
+    color: #00c1ec;
     margin-top: 70px;
     margin-left: 950px;
-    white-space : nowrap;
+    white-space: nowrap;
 }
 
-.subtit{
+.subtit {
     display: flex;
     margin-top: 25px;
     justify-content: center;
@@ -100,10 +100,10 @@ section {
     color: rgb(32, 31, 31);
     margin-top: 60px;
     margin-left: 950px;
-    white-space : nowrap;
+    white-space: nowrap;
 }
 
-.textosHARE{
+.textosHARE {
     display: flex;
     font-family: 'Montserrat', sans-serif;
     flex-direction: row;
@@ -114,26 +114,18 @@ section {
     color: rgb(0, 0, 0);
     justify-content: left;
 }
-.textosHARE hr{
+.textosHARE hr {
     color: rgb(0, 0, 0);
     font-family: 'Montserrat', sans-serif;
 }
-.texto1HARE{
+.texto1HARE {
     display: flex;
     flex-direction: row;
     font-family: 'Montserrat', sans-serif;
     gap: 25px;
     align-items: center;
 }
-.texto2HARE{
-    display: flex;
-    flex-direction: row;
-    font-family: 'Montserrat', sans-serif;
-    gap: 25px;
-    justify-content: center;
-    align-items: center;
-}
-.texto3HARE{
+.texto2HARE {
     display: flex;
     flex-direction: row;
     font-family: 'Montserrat', sans-serif;
@@ -141,7 +133,15 @@ section {
     justify-content: center;
     align-items: center;
 }
-.imagensHARE{
+.texto3HARE {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Montserrat', sans-serif;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+}
+.imagensHARE {
     width: 150px;
     height: 130px;
     margin-top: 10px;
@@ -149,16 +149,14 @@ section {
     margin-left: 330px;
 }
 
-
-.imagemvac{
+.imagemvac {
     display: block;
     flex-direction: column;
     width: 560px;
     height: 600px;
     margin-top: 60px;
-
 }
-.container{
+.container {
     position: static;
     flex-direction: column;
     margin-bottom: 10px;
@@ -166,38 +164,20 @@ section {
     align-items: center;
     justify-content: center;
     line-height: 50px;
-    left: 50%; 
+    left: 50%;
     margin-left: 36 0px;
     margin-top: 60px;
-    white-space : nowrap;
+    white-space: nowrap;
 }
 
-/* .seta-baixo:before {
+.seta-baixo {
     display: flex;
     align-items: center;
     justify-content: center;
-    content: "";
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 10px;
-    width: 100px; 
-    height: 100px; 
+    width: 100px;
+    height: 100px;
     margin-left: 900px;
     margin-top: 30px;
-
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  border-top: 5px solid #00C1EC;
-} */
-
-.seta-baixo{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100px; 
-    height: 100px; 
-    margin-left: 900px;
-    margin-top: 30px;
-    color: #00C1EC;
+    color: #00c1ec;
     font-size: 300px;
 }

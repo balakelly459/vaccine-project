@@ -16,6 +16,7 @@ body {
     height: 90%;
     margin-top: 59px;
     background-image: url(vac.png);
+    z-index: -1;
 }
 
 .div-wave {
@@ -28,3 +29,21 @@ body {
     width: 2000px;
 }
 
+.container-text {
+    color: white;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 140px;
+    left: 900px;
+    margin-top: 140px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    margin-top: 25px;
+}
